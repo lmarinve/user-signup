@@ -10,7 +10,7 @@ def index():
     return render_template("main.html", title='Home', welcome=welcome)
 
 
-@app.route('/login')
+@app.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
     return render_template('login.html', title='Sign in', form=form)
