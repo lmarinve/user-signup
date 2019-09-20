@@ -11,6 +11,9 @@ jsonify = "*"
 flask-restful = "*"
 requests = "*"
 flask-limiter = "*"
+flask-wtf = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
 gunicorn = "*"
 click = "*"
 itsdangerous = "*"
@@ -19,6 +22,7 @@ markupsafe = "*"
 tk = "*"
 werkzeug = "*"
 python-dotenv = "*"
+
 
 
 [requires]
